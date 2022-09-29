@@ -2,7 +2,9 @@ body { background-color: pink;color: blue;}
 
 div { background-color: rgba(221, 84, 107, 0.697);color: rgb(0, 0, 255); margin: 16px;padding: 16px;}
     .openingstanza {background-color: rgb(252, 36, 72); color: black}
-    .kisses {background-color: antiquewhite; color: pink;}
+
     
 h1 {font-family: Arial, Helvetica, sans-serif}
 h2 {font-family:Verdana, Geneva, Tahoma, sans-serif}
+
+.poem > div:last-child {background-color: antiquewhite; color: pink;}
