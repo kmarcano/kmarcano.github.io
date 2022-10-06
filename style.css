@@ -3,12 +3,10 @@ body { background-color: pink;color: blue;}
 div { background-color: rgba(221, 84, 107, 0.697);color: rgb(0, 0, 255); margin: 16px;padding: 16px;}
     .openingstanza {background-color: rgb(252, 36, 72); color: black}
 
- div{
-        padding: 40px;
+ div{  padding: 40px;
         border: 15% cornflowerblue;
         margin: 15px;
-        min-width: 25%; max-width: 50%;
-    }
+        min-width: 25%; max-width: 50%;}
 
     
 h1 {font-family: Arial, Helvetica, sans-serif}
