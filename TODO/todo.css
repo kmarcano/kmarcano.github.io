@@ -1,0 +1,17 @@
+* {
+    padding: 5px;
+    margin: 5px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    min-height: 3em
+}
+
+.done {background-color: lightblue;}
+
+.header{background-color: azure;}
+.footer{background-color: azure;}
+.root{
+    height:100%;
+    width: 400px;
+    background-color:honeydew;
+}
