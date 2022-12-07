@@ -16,11 +16,12 @@ width: 230px;
 height: fit-content;
 position: fixed;right: 42%;
 }
+
 h2 {
   font-family:"lucida handwriting",cursive;
   font: size 25px;
   font-weight: 300;
-  color: red;
+  color: rgb(24, 88, 24);
   margin: auto;
   width: 80%;
   padding: 10px;
@@ -34,8 +35,17 @@ div {background-color: rgba(218, 165, 32, 0.626);
   width: 50%;
   padding: 10px;
 }
+
 .product{
-  position:relative
   overflow-y: scroll;
-  height: 400px;
-  min-width: 25%; max-width: 25%;}
+  height: 550px;
+  min-width: 25%; max-width: 25%;
+  } 
+
+  p {font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 300;
+    background-color: rgba(24, 88, 24, 0.815);
+  
+
+  }
