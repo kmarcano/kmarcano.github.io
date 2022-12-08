@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Luatani's Corner</title>
+        <title>Luatani's Corner!!!</title>
         <link rel="stylesheet" href="style.css">
-        
+        <script src="submitorder.js">
+        </script>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>        
@@ -26,6 +28,8 @@
 
         <br>
 
+    <div class="shelf">
+
         <div class="product">
             <h2>Coquito Rum Punch</h2>
                 <img src="coconutpunch.webp" width="280" height="320" align=middle>
@@ -33,7 +37,7 @@
                     the <i>sweet fruity</i> taste of Bacardi, and the <i>aromatic essence</i> of nutmeg.</p>
                     <p>Orders only available for pickup</p>
                 <p><b>Scroll to Make Your Order</b></p>
-                <form action="Make Orders">
+                
                     <b>Quantity</b>
                     <select name="Bottles" id="Quantity">
                       <option value="one">1</option>
@@ -53,11 +57,14 @@
                     <b>Special Instructions</b>
                     <input type="text">
                 <br>
-                Send Order <input type="submit">
+
+                <button onclick="submitted()">Order Now</button>
 
           
         </div>
-<br>
+
+    
+
         <div class="product">
             <h2>Pumpkin Spice Fire</h2>
             <img src="pumpkinflavor.webp" width="280" height="320">
@@ -67,7 +74,6 @@
 
              <p><b>Scroll to Make Your Order</b></p>
           
-             <form action="Make Orders">
                 <b>Quantity</b>
                 <select name="Bottles" id="Quantity">
                   <option value="one">1</option>
@@ -87,10 +93,19 @@
                     <b>Special Instructions</b>
                     <input type="text">
                 <br>
-                    Send Order <input type="submit">
+                
+                    <button onclick="submitted()">Order Now</button>
 
+                </button> 
+               
+            
+            
+              
 
         </div>
+
+    </div>
+
 
     </body>
 </html>

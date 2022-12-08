@@ -1,3 +1,4 @@
+
 body {
   background-image: url(lights1.jpg); font-family: cursive;
 }
@@ -32,14 +33,13 @@ div {background-color: rgba(218, 165, 32, 0.626);
   font-size:20px;
   border: 5px solid;
   margin: auto;
-  width: 50%;
   padding: 10px;
 }
 
 .product{
   overflow-y: scroll;
   height: 550px;
-  min-width: 25%; max-width: 25%;
+  min-width: 25%; max-width: 40%;
   } 
 
   p {font-size: 18px;
@@ -49,3 +49,15 @@ div {background-color: rgba(218, 165, 32, 0.626);
   
 
   }
+
+  .shelf {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  @media (max-width:500px) 
+{
+  .shelf {flex-direction: column;}
+  .product {max-width: 90%;}
+}
